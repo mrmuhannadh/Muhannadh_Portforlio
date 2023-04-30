@@ -13,10 +13,9 @@ const FirstSet = () => {
                         <div className='container'>
                             <span className='myName'>
                                 Hello, I'm <b>MUHANNADH</b>
-
                             </span>
                             <p>
-                                Hello, welcome to my personal Portforlio
+                                Hello, welcome to my personal Portfolio
                             </p>
                         </div>
 

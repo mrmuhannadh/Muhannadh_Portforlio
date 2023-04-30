@@ -4,6 +4,7 @@
   --link_color:navy;
   --body_edubg: white !important;
   --edu_color:black;
+  --pro_bg:rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"]{
@@ -12,6 +13,7 @@
   --link_color:cyan;
   --body_edubg:black;
   --edu_color:#ffffff;
+  --pro_bg:rgba(255, 255, 255, 0.1);
 }
 
 body {
