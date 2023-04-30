@@ -1,0 +1,151 @@
+.eduSection {
+  background: var(--body_edubg);
+  min-height: 50vh;
+  color: var(--edu_color);
+  text-align: left;
+  padding-top: 4%;
+}
+
+.sclLogo {
+  max-width: 15%;
+  border-radius: 40%;
+  margin-right: 2vw;
+  max-height: 100%;
+}
+
+.myBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  color: var(--body_color) !important;
+  max-height: 30vh;
+  min-height: 30vh;
+  z-index: 2;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  background-clip: padding-box;
+
+}
+
+.myBox:hover {
+  transform:
+    perspective(100em) rotateX(0deg);
+  border: 1px solid #FF4500;
+}
+
+.eduSet {
+  z-index: 3 !important;
+}
+
+.myShape3 {
+  position: absolute;
+  top: 5vh;
+  height: 5vh;
+  width: 5vh;
+  background: none;
+  outline: solid 5px #FF4500;
+  opacity: 1;
+  z-index: 1;
+  overflow: hidden;
+  animation: square-to-circle 10.5s .42s infinite cubic-bezier(1, .015, .295, 1.225) alternate;
+}
+
+.myShape4 {
+  position: relative;
+  right: 5vh;
+  height: 5vh;
+  width: 5vh;
+  background: none;
+  outline: solid 5px #FF4500;
+  opacity: 1;
+  z-index: 1;
+  overflow: hidden;
+  animation: square-to-circle2 10.5s .42s infinite cubic-bezier(1, .015, .295, 1.225) alternate-reverse;
+}
+
+
+@keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    background: none;
+    transform: rotate(45deg);
+    transform: translateY(calc(100vh - 90vh));
+
+  }
+
+  25% {
+    border-radius: 50%;
+    background: none;
+    transform: rotate(135deg);
+    transform: translateY(calc(100vh - 70vh));
+  }
+
+  50% {
+    border-radius: 0%;
+    background: none;
+    transform: rotate(180deg);
+
+  }
+
+  75% {
+    border-radius: 50%;
+    background: none;
+    transform: rotate(315deg);
+    transform: translateX(calc(100vw - 90vw));
+  }
+
+  100% {
+    border-radius: 0%;
+    background: none;
+    transform: rotate(404deg);
+    transform: translateX(calc(100vw - 40vw));
+  }
+}
+
+@keyframes square-to-circle2 {
+  0% {
+    border-radius: 0 0 0 0;
+    background: none;
+    transform: rotate(45deg);
+    transform: translateY(calc(100vh - 90vh));
+
+  }
+
+  25% {
+    border-radius: 0 0 50% 0;
+    background: none;
+    transform: rotate(135deg);
+    transform: translateY(calc(10vh));
+  }
+
+  50% {
+    border-radius: 0%;
+    background: none;
+    transform: rotate(180deg);
+    transform: translateY(calc(30vh));
+
+  }
+
+  75% {
+    border-radius: 0 0 50% 0;
+    background: none;
+    transform: rotate(315deg);
+    transform: translateX(calc(-30vw));
+  }
+
+  100% {
+    border-radius: 50%;
+    background: none;
+    transform: rotate(404deg);
+    transform: translateX(calc(-40vw));
+  }
+}
+
+.skillsTopic {
+  font-size: 5vh;
+  z-index: 2;
+}

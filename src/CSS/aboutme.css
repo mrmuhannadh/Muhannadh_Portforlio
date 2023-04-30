@@ -1,0 +1,54 @@
+.topSet {
+    min-height: 100vh;
+
+}
+
+.mydetails {
+    padding-top: 10vh;
+    padding-left: 1vw;
+    text-align: left;
+    color: var(--body_color);
+    z-index: 1;
+}
+
+.contactlinks {
+    position: absolute;
+    bottom: 4vh;
+}
+
+.myIcon {
+    font-size: 2rem;
+    color: #FF4500 !important;
+    background: var(--bacground-color);
+    z-index: 3;
+    margin-top: 2vh;
+}
+
+.myName {
+    font-size: calc(40px + 2vw);
+}
+
+.imageSec {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.myimage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 50%;
+    max-width: 95%;
+    z-index: 1;
+    
+}
+
+.myShape {
+    position: absolute;
+    height: 40vh;
+    width: 60vw;
+    background: #FF4500;
+    transform: rotate(120deg);
+    right: 20;
+    z-index: 1;
+}

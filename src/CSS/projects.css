@@ -1,0 +1,163 @@
+.proSet {
+    margin-top: 5vh;
+    color: var(--edu_color);
+    text-align: left;
+}
+
+.myPro {
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+}
+
+.myShape5 {
+    position: relative;
+    left: 10vw;
+    top: 100vh;
+    height: 5vh;
+    width: 5vh;
+    background: none;
+    outline: solid 5px #fd00c6;
+    opacity: 1;
+    z-index: 1;
+    overflow: hidden;
+    animation: square-to-circle 10.5s .42s infinite cubic-bezier(1, .015, .295, 1.225) alternate;
+}
+
+@keyframes square-to-circle {
+    0% {
+        border-radius: 0 0 0 0;
+        background: none;
+        transform: rotate(45deg);
+        transform: translateY(calc(100vh - 90vh));
+
+    }
+
+    25% {
+        border-radius: 50%;
+        background: none;
+        transform: rotate(135deg);
+        transform: translateY(calc(100vh - 70vh));
+    }
+
+    50% {
+        border-radius: 25% 0;
+        background: none;
+        transform: rotate(180deg);
+
+    }
+
+    75% {
+        border-radius: 50% 50% 0 50%;
+        background: none;
+        transform: rotate(315deg);
+        transform: translateX(calc(100vw - 90vw));
+    }
+
+    100% {
+        border-radius: 45% 0 45%;
+        background: none;
+        transform: rotate(404deg);
+        transform: translateX(calc(100vw - 40vw));
+    }
+}
+
+.screen::-webkit-scrollbar {
+    width: 10px;
+}
+
+.screen::-webkit-scrollbar-thumb {
+    background: #FF4500;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #888;
+}
+
+
+.iMac {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.iMac .body {
+    height: 230px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0px -2px 0px #909090;
+}
+
+.iMac .body .shine {
+    width: 0;
+    height: 0;
+    border-top: 75px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 75px solid transparent;
+    border-left: 140px solid transparent;
+    border-right: 140px solid rgba(255, 255, 255, 0.04);
+    position: absolute;
+}
+
+.iMac .body .screen {
+    height: 200px;
+    border: 10px solid #000;
+    overflow: hidden;
+    transition: background 0.5s;
+    border-radius: 5px 5px 0px 0px;
+    background: var(--body_background);
+}
+
+.iMac .body .screen h1 {
+    padding-top: 28px;
+    text-align: center;
+    font-size: 150%;
+    opacity: 1;
+    transition: opacity 0.5s 0.5s;
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.iMac .body:hover .screen {
+    background: #444;
+    overflow-y: scroll;
+}
+
+.iMac .body:hover .screen h1 {
+    opacity: 1;
+}
+
+.iMac .body .logo {
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background: #bbb;
+    margin: 5px auto 0 auto;
+    box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.iMac .stand {
+    width: 80px;
+    height: 25px;
+    background: #aeaeae;
+    border: 20px solid var(--body_background);
+    border-top: 0;
+    border-bottom: 20px solid #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px -2px #909090;
+    margin: 0 auto;
+}
+
+
+.imgPro {
+    max-width: fit-content;
+    max-width: 350px;
+}
+
+.linkPro {
+    color: #FF4500;
+    text-decoration: none;
+}
