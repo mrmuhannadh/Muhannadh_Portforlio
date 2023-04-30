@@ -1,0 +1,20 @@
+.data{
+    padding-top: 7%;
+    text-align: left;
+}
+
+.myLine{
+    padding-top: 5%;
+}
+
+.lineOne{
+    padding-bottom: 9vh;
+}
+
+.fixedFooter{
+    position: fixed;
+    bottom: 0;
+    min-height: 6vh;
+    background: var(--body_edubg);
+    min-width: 100vw;
+}

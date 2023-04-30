@@ -34,7 +34,7 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>Hostel Managment System for Faculty of Technology, University of Ruhuna</h4>
                         <p>Used Technology: Codelgniter 4, Bootstrap 5 <br />
-                            <a href="https://github.com/mrmuhannadh/HMS.git" className='linkPro'>View Code</a> <br />
+                            <a href="https://github.com/mrmuhannadh/HMS.git" target="_blank" className='linkPro'>View Code</a> <br />
                         </p>
                     </div>
                 </div>
@@ -58,8 +58,8 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>Web site for Old Boys Association</h4>
                         <p>Used Technology: React JS, React Bootstrap<br />
-                            <a href="https://github.com/mrmuhannadh/OBA.git" className='linkPro'>View Code</a> <br />
-                            <a href="https://ontest.alazharccdoba.org/" className='linkPro'>Demo</a>
+                            <a href="https://github.com/mrmuhannadh/OBA.git" target="_blank" className='linkPro'>View Code</a> <br />
+                            <a href="https://ontest.alazharccdoba.org/" target="_blank" className='linkPro'>Demo</a>
                         </p>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>Personal Portfolio</h4>
                         <p>Used Technology: React JS, React Bootstrap<br />
-                            <a href="https://github.com/mrmuhannadh/Muhannadh_Portforlio.git" className='linkPro'>View Code</a> <br />
+                            <a href="https://github.com/mrmuhannadh/Muhannadh_Portforlio.git"  target="_blank" className='linkPro'>View Code</a> <br />
                         </p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>Redesigned TECMIS for Faculty of Technology, University of Ruhuna</h4>
                         <p>Used Technology: HTML, CSS, JS, Bootstrap 5 <br />
-                            <a href="https://github.com/mrmuhannadh/RedesignedTECMIS.git" className='linkPro'>View Code</a> <br />
+                            <a href="https://github.com/mrmuhannadh/RedesignedTECMIS.git" target="_blank" className='linkPro'>View Code</a> <br />
                         </p>
                     </div>
                 </div>
@@ -132,9 +132,7 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>RMI chat application using Java</h4>
                         <p>Used Technology: Java<br />
-                            <a href="" className='linkPro'>View Code</a> <br />
-                            <a href="https://ontest.alazharccdoba.org/" target='_blank' className='linkPro'>Demo</a>
-                        </p>
+                            <a href="https://github.com/mrmuhannadh/Java-Chat-Application.git" className='linkPro' target="_blank">View Code</a> <br />                        </p>
                     </div>
                 </div>
                 <div className='col-md-4 myPro'>
@@ -157,7 +155,7 @@ const Projects = () => {
                         <div class="stand"></div>
                         <h4>Hotel Managment System</h4>
                         <p>Used Technology: React JS, Spring Boot, MySQL<br />
-                            <a href="" className='linkPro'>View Code</a> <br />
+                            <a href="https://github.com/Elilvannan/ADBMS.git" target="_blank" className='linkPro'>View Code</a> <br />
                         </p>
                     </div>
                 </div>

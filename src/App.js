@@ -13,6 +13,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'react-fancy-circular-carousel/FancyCarousel.css';
 import Projects from './Components/projects/Projects';
+import UpButton from './Components/Other/UpButton';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const aboutme = useRef(null);
@@ -59,6 +61,7 @@ function App() {
           </Container>
         </Navbar>
       ))}
+      <UpButton/>
       <div ref={aboutme} className='aboutme'>
         <FirstSet/>
       </div>
@@ -68,7 +71,9 @@ function App() {
       <div ref={projects} className='projects'>
         <Projects/>
       </div>
-      <div ref={contact} className='contact'>Edu</div>
+      <div ref={contact} className='contact'>
+        <Footer/>
+      </div>
     </div>
   );
 }

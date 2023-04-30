@@ -21,19 +21,27 @@ const FirstSet = () => {
 
                         <div className='contactlinks '>
                             <div className='col'>
-                                <Icons.Linkedin className='myIcon' />
+                                <a href="www.linkedin.com/in/razick-muhannadh" target="_blank">
+                                    <Icons.Linkedin className='myIcon' />
+                                </a>
                             </div>
                             <div className='col'>
-                                <Icons.Github className='myIcon' />
+                                <a href="https://github.com/mrmuhannadh" target="_blank">
+                                    <Icons.Github className='myIcon' />
+                                </a>
                             </div>
                             <div className='col'>
-                                <Icons.Facebook className='myIcon' />
+                                <a href="" target="_blank">
+                                    <Icons.Facebook className='myIcon' />
+                                </a>
                             </div>
                             <div className='col'>
-                                <Icons.Whatsapp className='myIcon' />
+                                <a href="https://wa.me/+94754092934" target="_blank">
+                                    <Icons.Whatsapp className='myIcon' />
+                                </a>
                             </div>
 
-                            
+
                         </div>
 
                     </div>

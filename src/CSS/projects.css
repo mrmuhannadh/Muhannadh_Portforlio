@@ -2,6 +2,7 @@
     margin-top: 5vh;
     color: var(--edu_color);
     text-align: left;
+    padding-top: 4%;
 }
 
 .myPro {
@@ -163,4 +164,8 @@
 .linkPro {
     color: #FF4500;
     text-decoration: none;
+}
+
+.linkPro:active{
+    color:var(--edu_color);
 }
