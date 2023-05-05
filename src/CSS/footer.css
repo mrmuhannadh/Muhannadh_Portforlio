@@ -4,7 +4,7 @@
 }
 
 .myLine{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .lineOne{
@@ -17,4 +17,14 @@
     min-height: 6vh;
     background: var(--body_edubg);
     min-width: 100vw;
+}
+
+.resume{
+    text-decoration: none;
+    color:var(--body_color)
+}
+
+.resume:hover{
+    text-decoration: none;
+    color:var(--body_color)
 }

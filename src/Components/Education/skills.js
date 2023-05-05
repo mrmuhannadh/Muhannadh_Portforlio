@@ -19,7 +19,7 @@ import code from '../../Source/Logo/FrameWorks/cod.png'
 import azure from '../../Source/Logo/FrameWorks/azure.png'
 import ang from '../../Source/Logo/FrameWorks/ang.png'
 
-const Skills = () => {  
+const Skills = () => {
     const images = [java, c, python, js, html, css, php, mysql];
     const imagesFrame = [reactL, node, spring, boot, code, azure, ang];
     return (
@@ -27,8 +27,8 @@ const Skills = () => {
             <div className='langs'>
                 <div className='row'>
                     <div className='col-md-6 prolang'>
-                        <h3>Programming Languages</h3>
-                        <div className='carousel'>
+                        <h3 data-aos="fade-down">Programming Languages</h3>
+                        <div className='carousel' data-aos="fade-right">
                             <FancyCarousel
                                 images={images}
                                 className="langCau"
@@ -46,8 +46,9 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className='col-md-6 frames'>
-                        <h3>Frameworks</h3>
-                        <div className='carousel'>
+                        <h3 data-aos="fade-down">Frameworks</h3>
+                        <div className='carousel'
+                            data-aos="fade-left">
                             <FancyCarousel
                                 images={imagesFrame}
                                 carouselRadius={200}

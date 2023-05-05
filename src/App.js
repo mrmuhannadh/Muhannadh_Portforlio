@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef,useEffect } from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -15,6 +15,8 @@ import 'react-fancy-circular-carousel/FancyCarousel.css';
 import Projects from './Components/projects/Projects';
 import UpButton from './Components/Other/UpButton';
 import Footer from './Components/Footer/Footer';
+import 'aos/dist/aos.css';
+import AOS from 'aos'
 
 function App() {
   const aboutme = useRef(null);
@@ -28,8 +30,11 @@ function App() {
       behavior: "smooth"
     });
   }
-
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
+
     <div className="App">
       <meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86"></meta>
       {['md'].map((expand) => (
@@ -61,18 +66,18 @@ function App() {
           </Container>
         </Navbar>
       ))}
-      <UpButton/>
+      <UpButton />
       <div ref={aboutme} className='aboutme'>
-        <FirstSet/>
+        <FirstSet />
       </div>
       <div ref={education} className='education'>
-        <Edu/>
+        <Edu />
       </div>
       <div ref={projects} className='projects'>
-        <Projects/>
+        <Projects />
       </div>
       <div ref={contact} className='contact'>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

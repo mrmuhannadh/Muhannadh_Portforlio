@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../../CSS/aboutme.css'
 import myimg from '../../Source/Images/myImgTrans.png'
 import * as Icons from 'react-bootstrap-icons'
 
 const FirstSet = () => {
+    
     return (
         <div className='topSet'>
             <div className='container'>
@@ -11,15 +12,15 @@ const FirstSet = () => {
                     <div className='myShape'></div>
                     <div className='col-md-6 col-sm-4 mydetails '>
                         <div className='container'>
-                            <span className='myName'>
+                            <span className='myName' data-aos="fade-zoom-in" data-aos-delay="100">
                                 Hello, I'm <b>MUHANNADH</b>
                             </span>
-                            <p>
+                            <p data-aos="fade-down">
                                 Hello, welcome to my personal Portfolio
                             </p>
                         </div>
 
-                        <div className='contactlinks '>
+                        <div className='contactlinks ' data-aos="flip-left" data-aos-delay="100">
                             <div className='col'>
                                 <a href="www.linkedin.com/in/razick-muhannadh" target="_blank">
                                     <Icons.Linkedin className='myIcon' />

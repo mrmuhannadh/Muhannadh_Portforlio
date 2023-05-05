@@ -11,42 +11,42 @@ const Edu = () => {
         <div className='eduSection'>
             <div className='myShape2'></div>
             <div className='container eduSet'>
-                <span className='eduTopic'>
+                <span className='eduTopic' data-aos="fade-right">
                     Education
                 </span>
                 <div className='row'>
-                    <div className='col-md-4 myBox'>
+                    <div className='col-md-4 myBox' data-aos="fade-right" data-aos-delay="100">
                         <img src={azhar}
                             alt="scl logo"
                             className='sclLogo' />
                         Ordinary Level - Al-Azhar National School Dehianga, Kandy
-                        <br/>
+                        <br />
                         Results: 3As 2Bs 4Cs
                     </div>
-                    <div className='col-md-4 myBox'>
+                    <div className='col-md-4 myBox' data-aos="fade-up">
                         <img src={almanar}
                             alt="scl logo"
                             className='sclLogo' />
                         Advanced Level - Al-Manar National School Handessa, Kandy
-                        <br/>
-                        Course: Engineering Technology<br/>
+                        <br />
+                        Course: Engineering Technology<br />
                         Results: 3Cs
                     </div>
-                    <div className='col-md-4 myBox'>
+                    <div className='col-md-4 myBox' data-aos="fade-left" data-aos-delay="100">
                         <img src={uor}
                             alt="scl logo"
                             className='sclLogo' />
                         Undergraduate - Faculty of Technology, University of Ruhuna, Matara
-                        <br/>
+                        <br />
                         Current CGPA is 3.84 out of 6 semesters
                     </div>
                 </div>
                 <div className='myShape3'></div>
                 <div className='myShape4'></div>
-                <span className='skillsTopic'>
+                <span className='skillsTopic' data-aos="fade-down">
                     Skills
                 </span>
-                <Skills/>
+                <Skills />
             </div>
 
         </div>

@@ -10,12 +10,12 @@ import adbms from '../../Source/Images/Projects/adbms.png'
 const Projects = () => {
     return (
         <div className='container proSet'>
-            <span className='eduTopic'>
+            <span className='eduTopic'  data-aos="fade-right">
                 Projects
             </span>
 
             <div className='row'>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro' data-aos="zoom-in-right">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">
@@ -38,7 +38,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro' data-aos="zoom-in-up">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">
@@ -63,7 +63,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro' data-aos="zoom-in-left">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">
@@ -89,7 +89,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro'  data-aos="zoom-in-right">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">
@@ -112,7 +112,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro'  data-aos="zoom-in-up">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">
@@ -135,7 +135,7 @@ const Projects = () => {
                             <a href="https://github.com/mrmuhannadh/Java-Chat-Application.git" className='linkPro' target="_blank">View Code</a> <br />                        </p>
                     </div>
                 </div>
-                <div className='col-md-4 myPro'>
+                <div className='col-md-4 myPro'  data-aos="zoom-in-left">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">

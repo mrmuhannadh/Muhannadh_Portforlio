@@ -2,6 +2,7 @@ import React from 'react'
 import '../../CSS/footer.css'
 import * as Icons from 'react-bootstrap-icons'
 import { Icon } from '@chakra-ui/react'
+import resume from '../../Source/PDF/Muhannadh_Resume.pdf'
 
 const Footer = () => {
     return (
@@ -28,6 +29,14 @@ const Footer = () => {
                                 <td className='data'>
                                     +94 7666 49 866 <br />
                                     +94 7540 92 934
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Icons.Download className='myIcon' />
+                                </td>
+                                <td>
+                                    <a href={resume} className='resume' target='_blank'>Download My Resume</a>
                                 </td>
                             </tr>
                         </table>
