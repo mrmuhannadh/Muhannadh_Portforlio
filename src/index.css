@@ -5,6 +5,8 @@
   --body_edubg: white !important;
   --edu_color:black;
   --pro_bg:rgba(0, 0, 0, 0.1);
+  --footer_color:black;
+  --footer_bg:#eeeeee;
 }
 
 [data-theme="dark"]{
@@ -14,6 +16,8 @@
   --body_edubg:black;
   --edu_color:#ffffff;
   --pro_bg:rgba(255, 255, 255, 0.1);
+  --footer_color:white;
+  --footer_bg:#191919;
 }
 
 body {

@@ -6,7 +6,7 @@ import resume from '../../Source/PDF/Muhannadh_Resume.pdf'
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footerSet'>
             <div className='container lineOne'>
                 <span className='eduTopic d-flex'>
                     Contact
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <td>
                                     <Icons.Download className='myIcon' />
                                 </td>
-                                <td>
+                                <td className='data'>
                                     <a href={resume} className='resume' target='_blank'>Download My Resume</a>
                                 </td>
                             </tr>

@@ -1,19 +1,19 @@
-.mySkill{
+.mySkill {
     background: rgb(255, 255, 255);
     max-width: 100px;
     max-height: 100px;
 }
 
-.carousel{
+.carousel {
     z-index: 3;
     position: relative;
-    left:10vh;
+    left: 10vh;
     padding-bottom: 10vh;
     padding-top: 10vh;
     max-width: 100px;
-    
+
 }
 
-.langCau{
+.rr {
     background: red !important;
 }

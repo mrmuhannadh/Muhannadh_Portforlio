@@ -15,6 +15,10 @@ const FirstSet = () => {
                             <span className='myName' data-aos="fade-zoom-in" data-aos-delay="100">
                                 Hello, I'm <b>MUHANNADH</b>
                             </span>
+                            <br/>
+                            <span>
+                                -UNDERGRADUATE
+                            </span>
                             <p data-aos="fade-down">
                                 Hello, welcome to my personal Portfolio
                             </p>

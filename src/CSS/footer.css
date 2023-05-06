@@ -3,6 +3,10 @@
     text-align: left;
 }
 
+.footerSet{
+    background: var(--footer_bg);
+    color: var(--footer_color)
+}
 .myLine{
     padding-top: 10%;
 }
@@ -21,7 +25,7 @@
 
 .resume{
     text-decoration: none;
-    color:var(--body_color)
+    color:var(--body_color);
 }
 
 .resume:hover{

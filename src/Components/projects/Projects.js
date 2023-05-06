@@ -14,8 +14,8 @@ const Projects = () => {
                 Projects
             </span>
 
-            <div className='row'>
-                <div className='col-md-4 myPro' data-aos="zoom-in-right">
+            <div className='row myRow'>
+                <div className='col-md-4 col-sm-6 col-xs-6 myPro' data-aos="zoom-in-right">
                     <div class="iMac">
                         <div class="body">
                             <div class="shine">

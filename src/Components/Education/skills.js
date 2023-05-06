@@ -32,9 +32,9 @@ const Skills = () => {
                             <FancyCarousel
                                 images={images}
                                 className="langCau"
-                                carouselRadius={200}
-                                peripheralImageRadius={50}
-                                centralImageRadius={70}
+                                carouselRadius={150}
+                                peripheralImageRadius={45}
+                                centralImageRadius={60}
                                 focusElementStyling={{ border: 'none' }}
                                 autoRotateTime={4}
                                 centralImageBoxShadow={'none'}
@@ -51,9 +51,9 @@ const Skills = () => {
                             data-aos="fade-left">
                             <FancyCarousel
                                 images={imagesFrame}
-                                carouselRadius={200}
-                                peripheralImageRadius={50}
-                                centralImageRadius={70}
+                                carouselRadius={150}
+                                peripheralImageRadius={45}
+                                centralImageRadius={60}
                                 focusElementStyling={{ border: 'none' }}
                                 autoRotateTime={3}
                                 centralImageBoxShadow={'none'}
