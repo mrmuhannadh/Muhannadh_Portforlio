@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Muhannadh_Portforlio/static/css/main.02cfd46e.css",
-    "main.js": "/Muhannadh_Portforlio/static/js/main.48ab0da4.js",
+    "main.css": "/Muhannadh_Portforlio/static/css/main.465aa26f.css",
+    "main.js": "/Muhannadh_Portforlio/static/js/main.8be98ecc.js",
     "static/js/787.314e4640.chunk.js": "/Muhannadh_Portforlio/static/js/787.314e4640.chunk.js",
     "static/media/adbms.png": "/Muhannadh_Portforlio/static/media/adbms.824a953cb45ce2ef9eba.png",
     "static/media/oba.png": "/Muhannadh_Portforlio/static/media/oba.9a469fe53a0b2b61e7e7.png",
@@ -27,7 +27,7 @@
     "static/media/java.png": "/Muhannadh_Portforlio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/node.png": "/Muhannadh_Portforlio/static/media/node.6f01b9a14007c12aee86.png",
     "static/media/azure.png": "/Muhannadh_Portforlio/static/media/azure.217d604c133a6996e68b.png",
-    "static/media/html.png": "/Muhannadh_Portforlio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/html.png": "/Muhannadh_Portforlio/static/media/html.94972f53c025a8fb7e2b.png",
     "static/media/montserrat-latin-400-normal.woff2": "/Muhannadh_Portforlio/static/media/montserrat-latin-400-normal.acb6629fe45c43ad5d8b.woff2",
     "static/media/css.png": "/Muhannadh_Portforlio/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/js.png": "/Muhannadh_Portforlio/static/media/js.3dfb665e058d08c99f28.png",
@@ -42,12 +42,12 @@
     "static/media/slick.woff": "/Muhannadh_Portforlio/static/media/slick.295183786cd8a1389865.woff",
     "static/media/Moon.svg": "/Muhannadh_Portforlio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/Muhannadh_Portforlio/index.html",
-    "main.02cfd46e.css.map": "/Muhannadh_Portforlio/static/css/main.02cfd46e.css.map",
-    "main.48ab0da4.js.map": "/Muhannadh_Portforlio/static/js/main.48ab0da4.js.map",
+    "main.465aa26f.css.map": "/Muhannadh_Portforlio/static/css/main.465aa26f.css.map",
+    "main.8be98ecc.js.map": "/Muhannadh_Portforlio/static/js/main.8be98ecc.js.map",
     "787.314e4640.chunk.js.map": "/Muhannadh_Portforlio/static/js/787.314e4640.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02cfd46e.css",
-    "static/js/main.48ab0da4.js"
+    "static/css/main.465aa26f.css",
+    "static/js/main.8be98ecc.js"
   ]
 }
