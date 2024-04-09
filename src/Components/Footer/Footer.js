@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../CSS/footer.css'
 import * as Icons from 'react-bootstrap-icons'
-import { Icon } from '@chakra-ui/react'
 import resume from '../../Source/PDF/Muhannadh_Resume.pdf'
 
 const Footer = () => {
@@ -54,23 +53,19 @@ const Footer = () => {
                                     <Icons.Github className='myIcon' />
                                 </a>
                             </div>
+                            
                             <div className='col'>
-                                <a href="" target="_blank">
-                                    <Icons.Facebook className='myIcon' />
-                                </a>
-                            </div>
-                            <div className='col'>
-                                <a href="https://wa.me/+94754092934" target="_blank">
+                                <a href="https://wa.me/+94766649866" target="_blank">
                                     <Icons.Whatsapp className='myIcon' />
                                 </a>
                             </div>
                             <div className='col'>
-                                <a href="https://wa.me/+94754092934" target="_blank">
+                                <a href="" target="_blank">
                                     <Icons.Instagram className='myIcon' />
                                 </a>
                             </div>
                             <div className='col'>
-                                <a href="https://wa.me/+94754092934" target="_blank">
+                                <a href="" target="_blank">
                                     <Icons.Twitter className='myIcon' />
                                 </a>
                             </div>

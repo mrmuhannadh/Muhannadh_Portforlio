@@ -17,10 +17,12 @@ import UpButton from './Components/Other/UpButton';
 import Footer from './Components/Footer/Footer';
 import 'aos/dist/aos.css';
 import AOS from 'aos'
+import Experience from './Components/experience/experience';
 
 function App() {
   const aboutme = useRef(null);
   const education = useRef(null);
+  const experience = useRef(null);
   const projects = useRef(null);
   const contact = useRef(null);
 
@@ -56,6 +58,7 @@ function App() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#action1" className='navitem' onClick={() => scrollToSection(aboutme)}>About</Nav.Link>
+                  <Nav.Link href="#action1" className='navitem' onClick={() => scrollToSection(experience)}>Experience</Nav.Link>
                   <Nav.Link href="#action1" className='navitem' onClick={() => scrollToSection(education)}>Education</Nav.Link>
                   <Nav.Link href="#action2" className='navitem' onClick={() => scrollToSection(projects)}>Projects</Nav.Link>
                   <Nav.Link href="#action2" className='navitem' onClick={() => scrollToSection(contact)}>Contact</Nav.Link>
@@ -69,6 +72,9 @@ function App() {
       <UpButton />
       <div ref={aboutme} className='aboutme'>
         <FirstSet />
+      </div>
+      <div ref={experience} className='experience'>
+        <Experience />
       </div>
       <div ref={education} className='education'>
         <Edu />

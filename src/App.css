@@ -16,6 +16,10 @@ body {
   min-height: 100vh;
 }
 
+.experience {
+  min-height: 50vh;
+}
+
 .education {
   min-height: 100vh;
 }

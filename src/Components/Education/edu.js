@@ -36,9 +36,9 @@ const Edu = () => {
                         <img src={uor}
                             alt="scl logo"
                             className='sclLogo' />
-                        Undergraduate - Faculty of Technology, University of Ruhuna, Matara
+                        Graduate BICT - Faculty of Technology, University of Ruhuna, Matara
                         <br />
-                        Current CGPA is 3.84 out of 6 semesters
+                        GPA: 3.83 (First Class)
                     </div>
                 </div>
                 <div className='myShape3'></div>
