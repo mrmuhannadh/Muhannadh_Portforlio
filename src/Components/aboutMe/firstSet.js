@@ -20,7 +20,7 @@ const FirstSet = () => {
               </span>
               <br />
               <span>SOFTWARE ENGINEER</span>
-              <p data-aos="fade-down">Welcome to my personal Portfolio</p>
+              <p data-aos="fade-down">Welcome to my Portfolio</p>
             </div>
 
             <div
